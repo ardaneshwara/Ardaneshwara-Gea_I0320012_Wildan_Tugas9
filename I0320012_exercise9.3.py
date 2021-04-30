@@ -15,11 +15,11 @@ def main():
     i = 0;
     while i < BARIS:
         j = 0
-    while j < KOLOM:
-        print("%d " % A[i][j], end='')
-        j += 1
-    i += 1
-    print() # ganti baris
+        while j < KOLOM:
+            print("%d " % A[i][j], end='')
+            j += 1
+        i += 1
+        print() # ganti baris
 
 if __name__ == "__main__":
     main()
